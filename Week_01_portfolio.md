@@ -15,8 +15,8 @@
 - Understood portfolio requirements and submission process
 
 ### 2. Software Setup
-- [x] VirtualBox installed
-- [x] GNS3 installed
+- VirtualBox installed
+- GNS3 installed
 
 ### 3. GitHub Repository
 - Created private repository named: `12313490-COIT20261-2026T1`
@@ -27,6 +27,7 @@
 ## Section B - Task 1: GNS3 Introduction
 
 ### Project Details
+
 | Field | Value |
 |-------|-------|
 | Project Name | GNS3-Intro-12313490 |
@@ -34,6 +35,7 @@
 | Netmask | 255.255.255.0 |
 
 ### Network Configuration
+
 Configuration used in `/etc/network/interfaces`:
 
 ```bash
@@ -44,34 +46,33 @@ iface eth0 inet static
    up sysctl net.ipv4.ip_forward=0
 ```
 
-### Commands Used
+### Network Screenshot
+
+![Network](GNS3-Intro-12313490-network.png)
+
+### Command Used
+
 ```bash
 ip address show
 ```
 
+### Console Screenshot
+
+![IP Address](GNS3-Intro-12313490-ipaddress.png)
+
 ### Outputs
-- [x] GNS3-Intro-12313490.gns3project exported
-- [x] GNS3-Intro-12313490-network.png
-- [x] GNS3-Intro-12313490-ipaddress.png
 
-### Screenshots
-
-**Network Topology:**
-
-![Network](GNS3-Intro-12313490-network_png.png)
-
-**Console showing IP address:**
-
-![IP Address](GNS3-Intro-12313490-ipaddress_png.png)
+- GNS3-Intro-12313490.gns3project exported
+- GNS3-Intro-12313490-network.png screenshot taken
+- GNS3-Intro-12313490-ipaddress.png screenshot taken
 
 ---
 
 ## Learnings
+
 - How to create a new GNS3 project
 - How to add and configure a Linux Host node
 - How to set a static IP address using `/etc/network/interfaces`
 - How to disable IP forwarding on a host node
 - How to verify IP address using `ip address show` command
 - How to use the GNS3 web console
-- The loopback interface (lo) is always present and uses 127.0.0.1
-- eth0 is the main network interface used for LAN communication
