@@ -30,7 +30,7 @@
 | Field | Value |
 |-------|-------|
 | Project Name | GNS3-Intro-12313490 |
-| IP Address | 10.10.1.1 |
+| IP Address | 192.168.10.10 |
 | Netmask | 255.255.255.0 |
 
 ### Network Configuration
@@ -39,7 +39,7 @@ Configuration used in `/etc/network/interfaces`:
 ```bash
 auto eth0
 iface eth0 inet static
-   address 10.10.1.1
+   address 192.168.10.10
    netmask 255.255.255.0
    up sysctl net.ipv4.ip_forward=0
 ```
@@ -51,20 +51,27 @@ ip address show
 
 ### Outputs
 - [x] GNS3-Intro-12313490.gns3project exported
-- [x] GNS3-Intro-12313490-network.png screenshot
-- [x] GNS3-Intro-12313490-ipaddress.png screenshot
+- [x] GNS3-Intro-12313490-network.png
+- [x] GNS3-Intro-12313490-ipaddress.png
 
-### Learnings
+### Screenshots
+
+**Network Topology:**
+
+![Network](GNS3-Intro-12313490-network_png.png)
+
+**Console showing IP address:**
+
+![IP Address](GNS3-Intro-12313490-ipaddress_png.png)
+
+---
+
+## Learnings
 - How to create a new GNS3 project
 - How to add and configure a Linux Host node
 - How to set a static IP address using `/etc/network/interfaces`
 - How to disable IP forwarding on a host node
 - How to verify IP address using `ip address show` command
 - How to use the GNS3 web console
-
----
-
-## Notes
-Completed Week 01 tutorial tasks including GNS3 project setup,
-node configuration, and static IP address assignment.
-Successfully verified IP address via console using `ip address show`.
+- The loopback interface (lo) is always present and uses 127.0.0.1
+- eth0 is the main network interface used for LAN communication
