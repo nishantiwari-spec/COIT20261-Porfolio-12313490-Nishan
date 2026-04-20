@@ -48,7 +48,7 @@ iface eth0 inet static
 
 ### Network Screenshot
 
-![Network](GNS3-Intro-12313490-network.png)
+![Network](GNS3-Intro-12313490-network.png.png)
 
 ### Command Used
 
