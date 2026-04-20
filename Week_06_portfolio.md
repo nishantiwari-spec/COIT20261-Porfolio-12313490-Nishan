@@ -32,7 +32,7 @@ Address Resolution Protocol is abbreviated as ARP. This protocol enables a compu
 
 Before any form of communication, there were no entries in the ARP table for Host1 since Host1 had not communicated to any other node yet.
 
-![ARP Table Before](ARP-Basics-12313490-HostA-Table1.png.png)
+![ARP Table Before](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/ARP-Basics-12313490-HostA-Table1.png.png)
 
 ### ARP Table - After Pinging Host2
 
@@ -50,7 +50,7 @@ showed the gateway Router1 (192.168.10.1) with state STALE.
 REACHABLE means the address was recently confirmed as valid.
 STALE means the entry exists but has not been used recently.
 
-![ARP Table After Ping](ARP-Basics-12313490-HostA-Table2.png)
+![ARP Table After Ping](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/ARP-Basics-12313490-HostA-Table2.png.png)
 
 ### ARP Table - After Host2 Pinged Host1
 
@@ -64,7 +64,7 @@ entry changed to REACHABLE and Host2 entry changed to STALE as time passed.
     192.168.10.20 dev eth0 lladdr 02:42:c3:0f:46:00 STALE
     192.168.10.1  dev eth0 lladdr 02:42:86:71:9a:01 REACHABLE
 
-![ARP Table After Host2 Ping](ARP-Basics-12313490-HostA-Table3.png)
+![ARP Table After Host2 Ping](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/ARP-Basics-12313490-HostA-Table3.png.png)
 
 ### Outputs
 
@@ -93,7 +93,7 @@ Router1 and Router2 connect directly to each other on Subnet 3.
 
 ### Network Screenshot
 
-![Network](Default-Gateway-12313490-network.png)
+![Network](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Default-Gateway-12313490-network.png.png)
 
 ### IP Address Plan
 
@@ -120,7 +120,7 @@ Command used on all devices:
     192.168.20.0/24 via 192.168.30.2 dev eth0
     192.168.30.0/24 dev eth0 scope link src 192.168.30.1
 
-![Router1 Routes](Default-Gateway-12313490-router1-routes.png)
+![Router1 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Default-Gateway-12313490-router1-routes.png.png)
 
 #### Router2
 
@@ -128,14 +128,14 @@ Command used on all devices:
     192.168.20.0/24 dev eth1 scope link src 192.168.20.1
     192.168.30.0/24 dev eth0 scope link src 192.168.30.2
 
-![Router2 Routes](Default-Gateway-12313490-router2-routes.png)
+![Router2 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Default-Gateway-12313490-router2-routes.png.png)
 
 #### Host1
 
     default via 192.168.10.1 dev eth0
     192.168.10.0/24 dev eth0 scope link src 192.168.10.10
 
-![Host1 Routes](Default-Gateway-12313490-host1-routes.png)
+![Host1 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Default-Gateway-12313490-host1-routes.png.png)
 
 ### Routing Table Summary
 
@@ -165,7 +165,7 @@ Pinged from Host1 to Host3 across all three subnets:
 Result: 3 packets transmitted, 3 received, 0% packet loss.
 TTL=62 confirms two routers were traversed (Host1 -> Router1 -> Router2 -> Host3).
 
-![Ping Test](Default-Gateway-12313490-ping.png)
+![Ping Test](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Default-Gateway-12313490-ping.png.png)
 
 ### Outputs
 
