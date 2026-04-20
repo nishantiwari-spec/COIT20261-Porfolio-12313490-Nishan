@@ -75,7 +75,7 @@ Viewed switch port configuration:
 
 ### Switch Ports Screenshot
 
-![Switch Ports]()
+![Switch Ports](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Screenshot%202026-04-20%20213914.png)
 
 ### Connectivity Test After VLANs
 
