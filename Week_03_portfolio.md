@@ -50,7 +50,7 @@ Both messages were received and displayed correctly on each side. Used Ctrl+D to
 
 ### Screenshot
 
-![Netcat Client and Server](Netcat-Basics-12313490-client-server.png)
+![Netcat Client and Server](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Netcat-Basics-12313490-client-server.png.png)
 
 ### Outputs
 
