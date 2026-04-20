@@ -66,14 +66,14 @@ ip addr show
 
 ### Network Screenshot
 
-![Network](Setting-IP-12313490-network.png)
+![Network](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Setting-IP-12313490-network.png.png)
 
 ### Host Screenshots
 
-![Host1](Setting-IP-12313490-host1.png)
-![Host2](Setting-IP-12313490-host2.png)
-![Host3](Setting-IP-12313490-host3.png)
-![Host4](Setting-IP-12313490-host4.png)
+![Host1](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Setting-IP-12313490-host1.png.png)
+![Host2](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Setting-IP-12313490-host2.png.png)
+![Host3](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Setting-IP-12313490-host3.png.png)
+![Host4](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Setting-IP-12313490-host4.png.png)
 
 ### Outputs
 
@@ -102,7 +102,7 @@ ping 192.168.10.20
 
 Result: 6 packets transmitted, 6 received, 0% packet loss, average RTT 0.444ms
 
-![Basic Ping](Ping-Basics-12313490-simple.png)
+![Basic Ping](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Ping-Basics-12313490-simple.png.png)
 
 ### Test 2 - Ping to Wrong IP
 
@@ -114,7 +114,7 @@ ping 192.168.10.99
 
 Result: 100% packet loss. No device exists at that address so no reply was received.
 
-![Error Ping](Ping-Basics-12313490-error.png)
+![Error Ping]([Ping-Basics-12313490-error.png](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Ping-Basics-12313490-error.png.png))
 
 ### Test 3 - Ping with Custom Options
 
@@ -127,7 +127,7 @@ ping -c 5 -i 2 192.168.10.20
 
 Result: 5 packets transmitted, 5 received, 0% packet loss, average RTT 0.472ms
 
-![Options Ping](Ping-Basics-12313490-options.png)
+![Options Ping](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Ping-Basics-12313490-options.png.png)
 
 ### Outputs
 
