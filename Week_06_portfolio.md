@@ -32,7 +32,7 @@ Address Resolution Protocol is abbreviated as ARP. This protocol enables a compu
 
 Before any form of communication, there were no entries in the ARP table for Host1 since Host1 had not communicated to any other node yet.
 
-![ARP Table Before](ARP-Basics-12313490-HostA-Table1.png)
+![ARP Table Before](ARP-Basics-12313490-HostA-Table1.png.png)
 
 ### ARP Table - After Pinging Host2
 
