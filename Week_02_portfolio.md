@@ -114,7 +114,7 @@ ping 192.168.10.99
 
 Result: 100% packet loss. No device exists at that address so no reply was received.
 
-![Error Ping]([Ping-Basics-12313490-error.png](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Ping-Basics-12313490-error.png.png))
+![Error Ping](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Ping-Basics-12313490-error.png.png))
 
 ### Test 3 - Ping with Custom Options
 
