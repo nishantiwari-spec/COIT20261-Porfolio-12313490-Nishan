@@ -58,7 +58,7 @@ ip address show
 
 ### Console Screenshot
 
-![IP Address](GNS3-Intro-12313490-ipaddress.png)
+![IP Address](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/GNS3-Intro-12313490-ipaddress.png.png)
 
 ### Outputs
 
