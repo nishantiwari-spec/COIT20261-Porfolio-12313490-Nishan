@@ -48,7 +48,7 @@ iface eth0 inet static
 
 ### Network Screenshot
 
-![Network](GNS3-Intro-12313490-network.png.png)
+![Network](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/GNS3-Intro-12313490-network.png.png)
 
 ### Command Used
 
