@@ -35,7 +35,7 @@ switch starting from eth1. eth0 on the switch is left unused for Task 2.
 
 ### Network Screenshot
 
-![Network](Vlan-Basics-12313490-network.png)
+![Network](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/Vlan-Basics-12313490-network.png.png)
 
 ### Connectivity Test Before VLANs
 
@@ -75,7 +75,7 @@ Viewed switch port configuration:
 
 ### Switch Ports Screenshot
 
-![Switch Ports](Vlan-Basics-12313490-ports.png)
+![Switch Ports]()
 
 ### Connectivity Test After VLANs
 
