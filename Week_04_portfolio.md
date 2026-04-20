@@ -48,7 +48,7 @@ Forwarding status confirmed on Router1 console showing:
 
 ### Network Screenshot
 
-![Network](View-Routes-12313490-network.png)
+![Network](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-network.png.png)
 
 ### Routing Tables
 
@@ -63,28 +63,28 @@ Command used on all devices:
 
 Router1 knows both subnets directly through its two interfaces.
 
-![Router1 Routes](View-Routes-12313490-router-routes.png)
+![Router1 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-router-routes.png.png)
 
 #### Host1
 
     default via 192.168.10.1 dev eth0
     192.168.10.0/24 dev eth0 scope link src 192.168.10.10
 
-![Host1 Routes](View-Routes-12313490-host1-routes.png)
+![Host1 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-host1-routes.png.png)
 
 #### Host2
 
     default via 192.168.10.1 dev eth0
     192.168.10.0/24 dev eth0 scope link src 192.168.10.20
 
-![Host2 Routes](View-Routes-12313490-host2-routes.png)
+![Host2 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-host2-routes.png.png)
 
 #### Host3
 
     default via 192.168.20.1 dev eth0
     192.168.20.0/24 dev eth0 scope link src 192.168.20.10
 
-![Host3 Routes](View-Routes-12313490-host3-routes.png)
+![Host3 Routes](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-host3-routes.png.png)
 
 ### Routing Table Summary
 
@@ -108,7 +108,7 @@ Pinged from Host1 to Host3 across both subnets:
 Result: 3 packets transmitted, 3 received, 0% packet loss.
 TTL=63 confirms one router was traversed (Host1 -> Router1 -> Host3).
 
-![Ping Test](View-Routes-12313490-ping.png)
+![Ping Test](https://github.com/nishantiwari-spec/COIT20261-Porfolio-12313490-Nishan/blob/main/images/View-Routes-12313490-ping.png.png)
 
 ### Outputs
 
@@ -148,7 +148,7 @@ Output showed FRR2 and FRR3 as neighbours of FRR1.
 | FRR2 | 10.0.1.2 | Full |
 | FRR3 | 10.0.2.2 | Full |
 
-![OSPF Neighbors](OSPF-Basics-12313490-neighbors.png)
+
 
 ### Routing Tables
 
@@ -175,7 +175,7 @@ Command run on FRR1 and FRR4:
 | 10.0.1.0/24 | via FRR2 (10.0.3.1) |
 | 10.0.2.0/24 | via FRR3 (10.0.4.1) |
 
-![OSPF Routes](OSPF-Basics-12313490-routes.png)
+
 
 ### Traceroute Before Link Down
 
@@ -199,7 +199,7 @@ Traceroute now showed the bottom path via FRR3 was used:
     3  FRR4  2.0ms
     4  Host2  2.3ms
 
-![Traceroute](OSPF-Basics-12313490-traceroute.png)
+
 
 ### Outputs
 
